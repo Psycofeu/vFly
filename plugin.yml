@@ -1,0 +1,12 @@
+name: vFly
+author: Psycofeu
+api: 5.0.0
+version: 1.0.0
+description: https://discord.gg/vanillaMCBE
+
+website: "https://github.com/Psycofeu"
+main: psycofeu\fly\Main
+
+permissions:
+  fly.use:
+    default: op
