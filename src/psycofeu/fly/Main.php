@@ -23,6 +23,7 @@ class Main extends PluginBase implements Listener
         $this->saveDefaultConfig();
         $this->getLogger()->notice("Fly plugin enable | by Psycofeu");
         $this->getServer()->getCommandMap()->register("", new fly());
+        $this->getServer()->getPluginManager()->registerEvents($this, $this);
     }
     public function getConfigFile(): Config
     {
